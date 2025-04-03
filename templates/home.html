@@ -6,6 +6,14 @@
 </head>
 <body>
     <h1>Welcome to the Home Page</h1>
+    
+    <!-- File Upload Form -->
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <button type="submit">Upload</button>
+    </form>
+
+    <br>
     <a href="/about">About</a>
 </body>
 </html>
