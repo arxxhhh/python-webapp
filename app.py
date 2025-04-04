@@ -23,7 +23,7 @@ container_client = blob_service_client.get_container_client(CONTAINER_NAME)
 @app.route('/')
 def home():
     return render_template('home.html')
-`z`
+    
 @app.route('/upload', methods=['POST'])
 def upload_file():
     if 'file' not in request.files:
