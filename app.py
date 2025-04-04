@@ -5,7 +5,7 @@ from azure.storage.blob import BlobServiceClient
 app = Flask(__name__)
 
 # Set your User-Assigned Managed Identity Client ID (Find it in Azure Portal)
-UAMI_CLIENT_ID = "47cefc22-e8b0-4e1f-9a68-4c1d4c8ed62a"
+UAMI_CLIENT_ID = "062fc469-82f3-4d39-a3d1-25946a16a962"
 
 # Authenticate using Managed Identity
 credential = ManagedIdentityCredential(client_id=UAMI_CLIENT_ID)
