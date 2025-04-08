@@ -1,4 +1,3 @@
 flask
-gunicorn
 azure.storage.blob
 azure.identity
